@@ -1,14 +1,20 @@
-# Dicoding Collection Dashboard ✨
+## Dicoding Student
+Muhammad Ali Fikri Dashboard
 
 ## Setup environment
 ```
-conda create --name main-ds python=3.9
-conda activate main-ds
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+py -m venv proyek ##Membuat venv
+cd Scripts\activate.bat ##mengaktifkan venv
+cd ..
+pip install numpy pandas matplotlib seaborn jupyter streamlit
 ```
 
-## Run steamlit app
+## Run streamlit app
 ```
-streamlit run dashboard.py
+streamlit run app.py
 ```
 
+## Run Cloud streamlit app
+```
+https://dicodingproyek-xajn4hxkpdhwarnujbbkmk.streamlit.app/
+```
